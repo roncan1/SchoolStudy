@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/TV_com"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#BBF6B7"
+        android:gravity="center"
+        android:text="컴퓨터"
+        android:textColor="#0A30B8"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/TV_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#F6B7B7"
+        android:gravity="center"
+        android:text="가위바위보\n 경기시작"
+        android:textColor="#0A30B8"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BT_man_Gawi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="가위"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/BT_man_Bawi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="바위"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/BT_man_Bo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="보"
+            android:textSize="50dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
